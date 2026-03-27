@@ -25,11 +25,11 @@ https://minigram-spsn.onrender.com
 1. Clone the repository
 2. Install dependencies
 
-npm install
+run `npm install`
 
 3. Start the server
 
-npm start
+run `npm start`
 
 4. Open in browser:
 
