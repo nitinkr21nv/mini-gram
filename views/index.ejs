@@ -14,7 +14,7 @@
                 <h3>Followers: <%= profile.followers %></h3>
                 <h3>Following: <%= profile.following %></h3>
                 <h4>Bio: <%= profile.bio %></h4>
-                <a href="http://localhost:8080/profiles/<%= profile.id %>/show">View In Detail</a>
+                <a href="/profiles/<%= profile.id %>/show">View In Detail</a>
                 <br>
                 <br>
                 <form method="post" action="/profiles/<%= profile.id %>?_method=DELETE">
@@ -22,7 +22,7 @@
                 </form>
             </div>
         <%}%>
-        <a href="http://localhost:8080/profiles/new">Make New Profile</a>
+        <a href="/profiles/new">Make New Profile</a>
 
 
 
